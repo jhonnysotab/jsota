@@ -25,30 +25,27 @@ function efectoHabilidades(){
         habilidades[1].classList.add("htmlcss");
         habilidades[2].classList.add("reactJS");
         habilidades[3].classList.add("Java8");
-        habilidades[4].classList.add("MySQL");
-        habilidades[5].classList.add("SQLserver");
-        habilidades[6].classList.add("Booststrap");
-        habilidades[7].classList.add("AWS");
+        habilidades[4].classList.add("MySQL"); 
+        habilidades[5].classList.add("Booststrap");
+        habilidades[6].classList.add("AWS");
+        habilidades[7].classList.add("TypeScript");
         habilidades[8].classList.add("dedicacion");
         habilidades[9].classList.add("proyect");
         habilidades[10].classList.add("creatividad");
-        habilidades[11].classList.add("dedicacion");
-        habilidades[12].classList.add("pm");
+        habilidades[11].classList.add("dedicacion"); 
         
     }
 }
 
 
 document.getElementById('descargarCV').addEventListener('click', function() {
-    // URL del archivo PDF
+   
     var pdfUrl = './archivo/cvJhonnySota.pdf';
-  
-    // Crea un elemento <a> oculto
+   
     var link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'cvJhonnySota.pdf';
-  
-    // Añade el elemento al DOM y simula un clic
+   
     window.open(pdfUrl, '_blank');
   
   });

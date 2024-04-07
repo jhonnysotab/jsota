@@ -40,7 +40,7 @@ function efectoHabilidades(){
 
 document.getElementById('descargarCV').addEventListener('click', function() {
    
-    var pdfUrl = './archivo/cvJhonnySota.pdf';
+    var pdfUrl = './archivos/cvJhonnySota.pdf';
    
     var link = document.createElement('a');
     link.href = pdfUrl;
